@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>LAB 1</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+	.mytitle {
+		text-align: center;
+		color: rgb(255, 154, 181);
+		font-size: 50px;
+	}
+    
+    .art {
+    	border-style: dotted;
+        border-width: 5px 5px;
+        padding: 20px;
+        border-color: rgb(255, 154, 181);
+    }
+    
+</style>
+</head>
+<body>
+
+
+<h1 class="mytitle"> SORTOWANIE </h1>
+<article class="art">
+	<header>
+		<h2> Sortowanie </h2>
+		<p> Jest to jeden z podstawowych problemów informatyki, polegający na uporządkowaniu zbioru danych względem pewnych cech charakterystycznych każdego elementu tego zbioru. </p>
+		<p> Algorytmy sortowania są stosowane w celu uporządkowania danych, umożliwienia stosowania wydajniejszych algorytmów (np. wyszukiwania) i prezentacji danych w sposób czytelniejszy dla człowieka.<br>Jeśli jest konieczne posortowanie zbioru większego niż wielkość dostępnej pamięci, stosuje się algorytmy sortowania zewnętrznego.
+<br>Algorytmy, do działania których nie jest potrzebna większa niż stała pamięć dodatkowa (elementy sortowane przechowywane są przez cały czas w tablicy wejściowej), nazywane są algorytmami działającymi w miejscu.
+<br>Algorytmy sortujące, które dla elementów o tej samej wartości zachowują w tablicy końcowej kolejność tablicy wejściowej, nazywamy algorytmami stabilnymi </p>
+	</header>
+</article>
+
+<br><br><br>
+
+<table>
+	<tr>
+		<td>
+			<table class="tab">
+				<colgroup>
+					<col span="1" style="background-color: rgb(67, 67, 67);">
+					<col span="3" style="background-color: rgb(255, 154, 181);">
+				</colgroup>
+				<thead>
+					<tr>
+						<th colspan="4" id="id1">ALGORYTMY SORTUJĄCE</th>
+					</tr>
+					<tr>
+						<th rowspan="2">Algorytm</th>
+						<th colspan="3">Złożoność</th>
+					</tr>
+					<tr>
+						<th>Złożoność obliczeniowa przypadek ogólny</th>
+						<th>Złożoność obliczeniowa przypadek optymistyczny</th>
+						<th>Złożoność obliczeniowa przypadek pesymistyczny</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="suwak">
+						<td>Bubble sort</td>
+						<td>O(n^2)</td>
+						<td>O(n^2)</td>
+						<td>O(n^2)</td>
+					</tr>
+					<tr class="suwak">
+						<td>Quick sort</td>
+						<td>O(n*log n)</td>
+						<td>O(n*log n)</td>
+						<td>O(n^2)</td>
+					</tr>
+					<tr class="suwak">
+						<td>Merge sort</td>
+						<td>O(n*log n)</td>
+						<td>O(n*log n)</td>
+						<td>O(n*log n)</td>
+					</tr>
+					<tr class="suwak">
+						<td>Bucket sort</td>
+						<td>O(n+k)</td>
+						<td>O(n+k)</td>
+						<td>O(n^2)</td>
+					</tr>
+					<tr class="suwak">
+						<td>Heap sort</td>
+						<td>O(n*log n)</td>
+						<td>O(n)</td>
+						<td>O(n*log n)</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th colspan="4"></th>
+					</tr>
+				</tfoot>
+			</table>
+		</td>
+		<td>
+			<img src="smacznej_kawusi.jpg" alt="Smacznej kwausi!" width="600" height="500">
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
