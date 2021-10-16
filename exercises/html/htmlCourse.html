@@ -21,6 +21,21 @@ tr:nth-child(even){
 	background-color: powderblue;
 }
 
+ul.menu{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: white;
+}
+
+li.menu{
+	float: left;
+	padding: 10px;
+}
+
+li.menu:hover{
+	background-color: darkgray;
+}
+
 </style>
 <title>MyPage</title>
 </head>
@@ -145,8 +160,46 @@ jwqijqwi<br>
 		<td>40</td>
 	</tr>
 </table>
-<br><br>
 
+<h1 style="color:powderblue;">Listy</h1>
+Lista bez numerków
+<ul style="list-style-type:square;">
+	<li>Pierwszy</li>
+	<li>Dwa
+		<ul>
+			<li>2.5</li>
+			<li>2.6</li>
+		</ul>
+	</li>
+	<li>Trzy</li>
+</ul>
+
+Lista z numerkami
+<ol start="20">
+	<li>Jeden</li>
+	<li>Dwa</li>
+	<li>Trzy</li>
+</ol>
+
+<dl>
+	<dt>Cos</dt>
+		<dd>Wyjasnienie</dd>
+	<dt>Cos2</dt>
+		<dd>- Wyjasnienie2</dd>
+</dl>
+
+<ul class="menu">
+	<li class="menu">Pierwszy</li>
+	<li class="menu">Dwa</li>
+	<li class="menu">Trzy</li>
+</ul>
+
+<div style="border: 1px solid black">div block</div>
+<br>
+<span style="border: 1px solid black">span block</span>
+
+<p>Mam <span style="color:blue;font-weight:bold">niebieskie </span>oczy <span style="font-weight:bold">XD.</span></p>
+<br><br>
 
 </body>
 </html>
