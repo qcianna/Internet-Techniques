@@ -8,16 +8,27 @@ body{
 }
 
 table, th, td{
-	padding: 20px;
-	font-weight: bold;
 	font-size: 20px;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 50%;
+	border: 2px solid dimgray;
+	border-collapse: collapse;
 }
 
-th{
+.name{
+	font-weight: bold;
+}
+
+th, td{
+	padding: 20px;
+	vertical-align: bottom;
+}
+
+thead{
 	background-color: rgb(79, 51, 58);
+}
+
+tfoot{
+	background-color: darkgray;
 }
 
 tr.suwak:hover{
@@ -29,3 +40,22 @@ tr.suwak:hover{
 	color: rgb(255, 154, 181);
 	font-size: 30px;
 }
+
+#box{
+	width: 1200px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tab{
+	float: left;
+	width: 700px;
+}
+
+#im{
+	float: right;
+	margin-top: 150px;
+}
+
+
