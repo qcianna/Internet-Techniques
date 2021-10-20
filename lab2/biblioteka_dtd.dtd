@@ -1,0 +1,10 @@
+<!ELEMENT biblioteka (dzialy)>
+<!ELEMENT dzialy (dzial*)>
+<!ELEMENT dzial (nazwa, ksiazka*)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT ksiazka (autor*, tytul, cena)>
+<!ELEMENT autor (imie, nazwisko)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>

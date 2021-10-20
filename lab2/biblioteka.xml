@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE biblioteka SYSTEM "biblioteka_dtd.dtd">
+<?xml-stylesheet type="text/css" href="style.css"?>
+<biblioteka> 
+<dzialy>
+    <dzial> 
+      <nazwa>Naukowe</nazwa>
+      <ksiazka> 
+        <autor>
+          <imie>Stephen</imie>
+          <nazwisko>Hawking</nazwisko>
+        </autor>
+        <tytul>"Krotka historia czasu"</tytul>
+        <cena>30zl</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Gary </imie>
+          <nazwisko>Cornell</nazwisko>
+        </autor>
+        <autor>
+          <imie>Cay</imie>
+          <nazwisko>Horstmann</nazwisko>
+        </autor>
+        <tytul>"Java: podstawy"</tytul>
+        <cena>100zl</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Anna</imie>
+          <nazwisko>Babacka</nazwisko>
+        </autor>
+        <tytul>"Bardzo dlugi tytul"</tytul>
+        <cena>50zl</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Aleksandra</imie>
+          <nazwisko>Gierek</nazwisko>
+        </autor>
+        <tytul>"Kolejna ksiazka"</tytul>
+        <cena>20zl</cena>
+      </ksiazka> 
+    </dzial> 
+    <dzial> 
+    <nazwa>Beletrystyka</nazwa>
+      <ksiazka> 
+        <autor>
+          <imie>J. K.</imie>
+          <nazwisko>Rowling</nazwisko>
+        </autor>
+        <tytul>"Harry Potter"</tytul>
+        <cena>60zl</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Juliusz</imie>
+          <nazwisko>Slowacki</nazwisko>
+        </autor>
+        <tytul>"Balladyna"</tytul>
+        <cena>35zl</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Boleslaw</imie>
+          <nazwisko>Prus</nazwisko>
+        </autor>
+        <tytul>"Lalka"</tytul>
+        <cena>40zl</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>A.A.</imie>
+          <nazwisko>Milne</nazwisko>
+        </autor>
+        <tytul>"Kubus Puchatek"</tytul>
+        <cena>70zl</cena>
+      </ksiazka> 
+    </dzial> 
+</dzialy>
+</biblioteka>
