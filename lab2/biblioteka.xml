@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE biblioteka SYSTEM "biblioteka_dtd.dtd">
 <?xml-stylesheet type="text/css" href="style.css"?>
-<biblioteka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd"> 
+<biblioteka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="schema.xsd"> 
 <dzialy>
     <dzial> 
       <nazwa>Naukowe</nazwa>
