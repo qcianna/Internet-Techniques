@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE biblioteka SYSTEM "biblioteka_dtd.dtd">
 <?xml-stylesheet type="text/css" href="style.css"?>
-<biblioteka> 
+<biblioteka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd"> 
 <dzialy>
     <dzial> 
       <nazwa>Naukowe</nazwa>
@@ -11,7 +11,7 @@
           <nazwisko>Hawking</nazwisko>
         </autor>
         <tytul>"Krotka historia czasu"</tytul>
-        <cena>30zl</cena>
+        <cena>30</cena>
       </ksiazka> 
       <ksiazka> 
         <autor>
@@ -23,7 +23,7 @@
           <nazwisko>Horstmann</nazwisko>
         </autor>
         <tytul>"Java: podstawy"</tytul>
-        <cena>100zl</cena>
+        <cena>100</cena>
       </ksiazka> 
       <ksiazka> 
         <autor>
@@ -31,7 +31,7 @@
           <nazwisko>Babacka</nazwisko>
         </autor>
         <tytul>"Bardzo dlugi tytul"</tytul>
-        <cena>50zl</cena>
+        <cena>50</cena>
       </ksiazka> 
       <ksiazka> 
         <autor>
@@ -39,7 +39,7 @@
           <nazwisko>Gierek</nazwisko>
         </autor>
         <tytul>"Kolejna ksiazka"</tytul>
-        <cena>20zl</cena>
+        <cena>20</cena>
       </ksiazka> 
     </dzial> 
     <dzial> 
@@ -50,7 +50,7 @@
           <nazwisko>Rowling</nazwisko>
         </autor>
         <tytul>"Harry Potter"</tytul>
-        <cena>60zl</cena>
+        <cena>60</cena>
       </ksiazka> 
       <ksiazka> 
         <autor>
@@ -58,7 +58,7 @@
           <nazwisko>Slowacki</nazwisko>
         </autor>
         <tytul>"Balladyna"</tytul>
-        <cena>35zl</cena>
+        <cena>35</cena>
       </ksiazka> 
       <ksiazka> 
         <autor>
@@ -66,7 +66,7 @@
           <nazwisko>Prus</nazwisko>
         </autor>
         <tytul>"Lalka"</tytul>
-        <cena>40zl</cena>
+        <cena>40</cena>
       </ksiazka> 
       <ksiazka> 
         <autor>
@@ -74,8 +74,8 @@
           <nazwisko>Milne</nazwisko>
         </autor>
         <tytul>"Kubus Puchatek"</tytul>
-        <cena>70zl</cena>
+        <cena>70</cena>
       </ksiazka> 
-    </dzial> 
-</dzialy>
+    </dzial>
+</dzialy> 
 </biblioteka>

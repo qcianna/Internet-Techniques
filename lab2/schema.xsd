@@ -1,20 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-  <xs:element name="biblioteka">
+  
+  <xs:element name="biblioteka" >
     <xs:complexType>
-    <xs:element name="dzialy">
-    <xs:complexType>
-        <xs:element name="dzial" >
-          <xs:complexType>
+    <xs:sequence>
+    
+      <xs:element name="dzialy" >
+        <xs:complexType>
+        <xs:sequence>
+        
+          <xs:element name="dzial" maxOccurs="unbounded">
+            <xs:complexType>
             <xs:sequence>
-              <xs:element name="ksiazka"/>
               <xs:element name="nazwa"/>
-          </xs:sequence>
-      </xs:complexType>
-      </xs:element>
+              
+               <xs:element name="ksiazka" maxOccurs="unbounded">
+                <xs:complexType>
+                <xs:sequence>
+                
+                  <xs:element name = "autor" maxOccurs="2">
+                    <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="imie" maxOccurs="1"/>
+                      <xs:element name="nazwisko" />
+                    </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  
+                  <xs:element name="tytul" />
+                  
+                  <xs:element name="cena" >
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="10"/>
+                        <xs:maxInclusive value="200"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  
+                </xs:sequence>
+                </xs:complexType>
+               </xs:element>
+               
+            </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          
+        </xs:sequence>
+        </xs:complexType>
+        </xs:element>
+        
+    </xs:sequence>
     </xs:complexType>
-    </xs:element>
-  </xs:complexType>
-</xs:element>
+  </xs:element>
   
 </xs:schema>
