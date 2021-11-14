@@ -1,0 +1,43 @@
+body{
+    background-color: #b6e5c4;
+}
+
+table { 
+    display: block;
+    width: 400px;
+	margin-left: 100px;
+    margin-bottom: 100px;
+    border-style: outset;
+    border-width: 4px;
+    background-color: #fcf0eb;
+}
+
+h1 {
+    display: block;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #76B388;
+}
+
+th{
+    background-color: #e78c68;
+}
+
+.green{
+    color: #537e60;
+}
+
+.blue{
+    color: rgb(22, 22, 87);
+}
+
+.red{
+    color: rgb(104, 7, 7);
+}
+
+.tytul{
+    background-color: #a3664e;
+}

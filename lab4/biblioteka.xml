@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteka._xsl.xsl"?>
+<biblioteka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd"> 
+<dzialy>
+    <dzial> 
+      <nazwa>Naukowe</nazwa>
+      <ksiazka> 
+        <autor>
+          <imie>Stephen</imie>
+          <nazwisko>Hawking</nazwisko>
+        </autor>
+        <tytul>"Krotka historia czasu"</tytul>
+        <cena>30</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Gary</imie>
+          <nazwisko>Cornell</nazwisko>
+        </autor>
+        <autor>
+          <imie>Cay</imie>
+          <nazwisko>Horstmann</nazwisko>
+        </autor>
+        <tytul>"Java: podstawy"</tytul>
+        <cena>100</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Anna</imie>
+          <nazwisko>Babacka</nazwisko>
+        </autor>
+        <tytul>"Bardzo dlugi tytul"</tytul>
+        <cena>50</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Aleksandra</imie>
+          <nazwisko>Gierek</nazwisko>
+        </autor>
+        <tytul>"Kolejna ksiazka"</tytul>
+        <cena>20</cena>
+      </ksiazka> 
+    </dzial> 
+    <dzial> 
+    <nazwa>Beletrystyka</nazwa>
+      <ksiazka> 
+        <autor>
+          <imie>J. K.</imie>
+          <nazwisko>Rowling</nazwisko>
+        </autor>
+        <tytul>"Harry Potter"</tytul>
+        <cena>60</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Juliusz</imie>
+          <nazwisko>Slowacki</nazwisko>
+        </autor>
+        <tytul>"Balladyna"</tytul>
+        <cena>35</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Boleslaw</imie>
+          <nazwisko>Prus</nazwisko>
+        </autor>
+        <tytul>"Lalka"</tytul>
+        <cena>40</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>A.A.</imie>
+          <nazwisko>Milne</nazwisko>
+        </autor>
+        <tytul>"Kubus Puchatek"</tytul>
+        <cena>70</cena>
+      </ksiazka> 
+    </dzial>
+    <dzial> 
+    <nazwa>Kryminalne</nazwa>
+      <ksiazka> 
+        <autor>
+          <imie>Thomas</imie>
+          <nazwisko>Smith</nazwisko>
+        </autor>
+        <tytul>"Death"</tytul>
+        <cena>70</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Adam</imie>
+          <nazwisko>Malik</nazwisko>
+        </autor>
+        <tytul>"Groza"</tytul>
+        <cena>25</cena>
+      </ksiazka> 
+      <ksiazka> 
+        <autor>
+          <imie>Marian</imie>
+          <nazwisko>Musk</nazwisko>
+        </autor>
+        <tytul>"Rzeka poznania"</tytul>
+        <cena>45</cena>
+      </ksiazka> 
+    </dzial>
+</dzialy> 
+</biblioteka>
