@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl"> 
+    <head> 
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>
+            CGI
+        </title>
+    </head>
+<body> 
+    <div id="menu">
+        <h1>Biblioteka</h1>
+        <fieldset> 
+            <legend>Ksiazki</legend> 
+                <form action="../cgi-bin/read.py" method="get"> 
+                    <div id="get">
+                        <div id="text">
+                            <p>
+                                Tytul:<br>
+                                Autor:<br>
+                            </p>
+                        </div>
+                        <div id="pola">
+                            <input type="text" name="data1"><br>
+                            <input type="text" name="data2"><br>     
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                    <div id="submit">
+                        <input type="submit" value="Wyslij">
+                    </div>
+            </form> 
+        </fieldset> 
+    </div>
+</body> 
+</html> 

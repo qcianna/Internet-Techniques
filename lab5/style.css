@@ -1,0 +1,41 @@
+body{
+    background-color: #CFDBD5;
+}
+
+#menu{
+    margin-left: 5%;
+    width: 25%;
+    color: #FE5F55;
+}
+
+h1{
+    margin-top: 10%;
+    color: #1F2421;
+	font-size: 30px;
+}
+
+legend{
+    color: #FE5F55;
+    border: 3px solid #1F2421;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#get{
+    margin-top: 5%;
+    width: 350px;
+    height: 90px;
+    border: 3px solid #FE5F55;
+    background: #1F2421;
+}
+
+#text{
+	float: left;
+    margin-left: 5%;
+}
+
+#pola{
+	float: right;
+    margin-right: 10%;
+    margin-top: 4%;
+}

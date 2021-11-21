@@ -1,0 +1,30 @@
+body{
+    background-color: #CFDBD5
+}
+
+table{
+    width: 30%;
+    border: 3px solid #1F2421;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+
+td, th{
+    border: 1px solid #1F2421;
+    border-collapse: collapse;
+    color: #1F2421;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #FE5F55;
+}
+
+h1{
+    color: #1F2421;
+    text-align: center;
+    margin-top: 5%;
+}
+   
