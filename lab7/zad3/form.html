@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <title>
+        biblioteka_ajax
+    </title>
+</head>
+<body>
+<div id="menu">
+    <h1>Biblioteka</h1>
+    <fieldset>
+        <legend>Ksiazki</legend>
+        <form action="#">
+            <div class="buttons prettyDisplay">
+                <p><input type="button" name="data1" value="Dodaj rekord" onclick="addData()"/></p>
+                <p><input type="button" name="data2" value="Lista rekordow" onclick="showDataRequest()"/></p>
+            </div>
+            <div id="myBlock"></div>
+        </form>
+    </fieldset>
+</div>
+
+<script src="form.js" type="text/javascript"></script>
+</body>
+</html>
