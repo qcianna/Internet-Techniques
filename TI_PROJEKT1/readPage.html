@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="readLookPage.css">
+    <link rel="stylesheet" href="buttons.css">
+    <meta charset="UTF-8">
+    <title>
+        PROJEKT
+    </title>
+</head>
+<body>
+    <article>
+        <h1 class="title">Fraktale</h1>
+        <p>
+            <b>Fraktal </b> - w znaczeniu potocznym oznacza zwykle obiekt samopodobny (tzn. taki, którego części są podobne do całości) albo „nieskończenie złożony”
+            (ukazujący coraz bardziej złożone detale w dowolnie wielkim powiększeniu).
+            Ze względu na olbrzymią różnorodność przykładów matematycy obecnie unikają podawania ścisłej definicji
+            i proponują określać fraktal jako zbiór, który posiada wszystkie poniższe charakterystyki albo przynajmniej ich większość.
+        </p>
+        <p class="note">
+            Twórcą opisu fraktali jest urodzony w Polsce, Francuz, Benoît Mandelbrot
+        </p>
+
+        <div class="wrapper">
+            <div class="myBorder">
+                <b>Właściwości:</b>
+                <ul>
+                    <li>nietrywialna struktura w każdej skali,</li>
+                    <li>struktura ta nie daje się łatwo opisać w języku tradycyjnej geometrii euklidesowej,</li>
+                    <li>jest samopodobny, jeśli nie w sensie dokładnym, to przybliżonym</li>
+                    <li>ma względnie prostą definicję rekurencyjną.</li>
+                </ul>
+            </div>
+            <video width="400" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+        </div>
+
+        <h1>Fraktale w przyrodzie</h1>
+        <p>Chociaż fraktale mogą kojarzyć się tylko z kolorowymi, abstrakcyjnymi obrazami, to nie jest to wszystko. Fraktale możemy także zauważyć w otaczającym nas świecie.</p>
+
+        <div class="container">
+            <div class="item item1">
+                <img src="zdj/aloe.jpg" alt="aloe">
+            </div>
+            <div class="item">
+                <img src="zdj/paproc.jpg" alt="aloe">
+            </div>
+            <div class="item">
+                <img src="zdj/snowflake.jpg" alt="aloe">
+            </div>
+            <div class="item item4">
+                <img src="zdj/kalafior.jpg" alt="aloe">
+            </div>
+        </div>
+
+        <br>
+        <h1>Znane fraktale</h1>
+        <div class="myBox" id="sierpinski" onclick="showInfoSierp('sierpinski')" style="transform:rotate(10deg); margin-left: 50px">Trójkąt Sierpińskiego</div>
+        <div class="myBox" id="julia" onclick="showInfoJul('julia')" style="transform:rotate(-5deg); margin-left: 550px">Zbiory Julii</div>
+        <div class="myBox" id="mandelbort" onclick="showInfoMan('mandelbort')" style="transform:rotate(15deg); margin-left: 200px">Zbiór Mandelbrota</div>
+
+    </article>
+    <br>
+
+    <footer>
+        <button type="button" class="whiteButton" onmouseover="color(this)" onmouseout="reset(this)" onclick="window.location.href='mainPage.html'"><span class="text">Powrót</span></button>
+    </footer>
+
+    <script src="readPage.js"></script>
+    <script src="button.js"></script>
+
+</body>
+</html>

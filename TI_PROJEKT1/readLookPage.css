@@ -1,0 +1,103 @@
+body {
+    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+    background-image: url("tlo/tlo.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 22px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.note {
+    font-size: 0.8em;
+    line-height: 1.875;
+    font-style: italic;
+    border-left: 5px solid #333;
+    padding-left: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+}
+
+.myBorder {
+    padding: 10px;
+    border: 2px dotted #333;
+    margin-right: 30px;
+}
+
+p {
+    margin-bottom: 45px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.item:hover img{
+    transform: scale(1.5);
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1;
+}
+
+.item4 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 3;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.myBox {
+    margin-top: 50px;
+    width: 200px;
+    height: auto;
+    background-color: snow;
+    text-align: center;
+    padding: 70px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+.myCanvas {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 260px;
+}
+
+.myButton {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}

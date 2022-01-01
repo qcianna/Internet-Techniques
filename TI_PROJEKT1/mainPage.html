@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="stylesheet" href="buttons.css">
+    <meta charset="UTF-8">
+    <title>
+        PROJEKT
+    </title>
+</head>
+<body>
+    <header>
+        <button type="button" class="whiteButton" onmouseover="color(this)" onmouseout="reset(this)" onclick="window.location.href='lookPage.html'">Zobacz</button>
+        <button type="button" class="whiteButton" onmouseover="color(this)" onmouseout="reset(this)" onclick="window.location.href='readPage.html'">Poczytaj</button>
+    </header>
+    <section>
+        <h1 class="title">FRAKTALE</h1>
+        <h2>Anna Kucia</h2>
+        <h2>grudzień 2021</h2>
+    </section>
+    <aside>
+        <div class="myCanvas">
+            <canvas id="triangle" width="400" height="400"></canvas>
+        </div>
+    </aside>
+    <script src="button.js"></script>
+    <script src="fractalTriangle.js"></script>
+</body>
+</html>

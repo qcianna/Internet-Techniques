@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="readLookPage.css">
+    <link rel="stylesheet" href="buttons.css">
+    <meta charset="UTF-8">
+    <title>
+        PROJEKT
+    </title>
+</head>
+<body style="background-image: url('tlo/bgwood.jpg')">
+
+    <div class="myCanvas">
+        <canvas id="fractalTree" width="800" height="500"></canvas>
+    </div>
+
+    <div class="myButton">
+        <button type="button" class="transparentButton" onclick="generateTree()">Nowe drzewo fraktalne</button>
+    </div>
+
+    <div class="myButton">
+        <button type="button" class="transparentButton" onclick="window.location.href='mainPage.html'"><span class="text">Powrót</span></button>
+    </div>
+
+    <script src="fractalTree.js"></script>
+</body>
+</html>
